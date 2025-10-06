@@ -6,7 +6,8 @@
 	"image": "mcr.microsoft.com/devcontainers/base:noble",
 
     "features": {
-        "ghcr.io/joebowbeer/devcontainers-features/arkade-get:0.0.2": {
+        "ghcr.io/joebowbeer/devcontainers-features/arkade-get:0.0.3": {
+			"just": "latest",
             "kustomize": "latest"
         }
     }
