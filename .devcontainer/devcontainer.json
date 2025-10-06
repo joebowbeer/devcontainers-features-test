@@ -6,8 +6,9 @@
 	"image": "mcr.microsoft.com/devcontainers/base:noble",
 
     "features": {
-        "ghcr.io/joebowbeer/devcontainers-features/arkade-get:0.0.3": {
-			"just": "latest",
+        "ghcr.io/joebowbeer/devcontainers-features/arkade-get:1": {
+            "faas-cli": "0.14.10",
+			"helm": "v3.19.0",
             "kustomize": "latest"
         }
     }
