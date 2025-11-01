@@ -1,0 +1,17 @@
+name: CI/CD Workflow
+
+on:
+  workflow_dispatch:
+  pull_request:
+
+jobs:
+  cicd:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+
+      - name: Container Environment
+        uses: devcontainers/ci@v0.3
+        with:
+          runCmd: faas-cli version
